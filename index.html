@@ -23,7 +23,11 @@
  			width: 50%}
 	</style>
 	<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
-	<audio src="bgsong.mp3" autoplay loop></audio>
+	<script>
+  		var audio = document.getElementById("bgsong");
+  		audio.volume = 0.5;
+	</script>
+	<audio src="bgsong.mp3" autoplay loop id="bgsong"></audio>
 </head>
 <body>
 	<body style="background-color:black;">
